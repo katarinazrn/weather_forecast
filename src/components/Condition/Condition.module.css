@@ -1,0 +1,36 @@
+.container {
+  color: whitesmoke;
+  padding-left: 3px;
+}
+
+.condition {
+  display: table;
+}
+
+.condition img {
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+.condition span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.container p {
+  margin: 0;
+  padding-bottom: 2px;
+}
+
+@media (max-width: 480px) {
+  .condition {
+    display: block;
+    text-align: center;
+  }
+
+  .condition span {
+    display: block;
+    text-align: center;
+  }
+}

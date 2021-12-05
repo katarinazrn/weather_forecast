@@ -1,0 +1,27 @@
+.temperature {
+  display: table-cell;
+  vertical-align: middle;
+  color: whitesmoke;
+  font-size: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+@media (max-width: 1080px) {
+  .temperature {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 720px) {
+  .temperature {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .temperature {
+    font-size: 80px;
+  }
+}
+
