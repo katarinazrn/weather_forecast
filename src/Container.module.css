@@ -9,7 +9,7 @@
   position: absolute;
   margin: 0;
   padding: 0;
-  background-image: url("./assetss/clouds.jpg");
+  background-image: linear-gradient(rgb(125, 152, 209),rgb(49, 116, 216),rgb(23, 53, 117));
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -18,9 +18,9 @@
 
 .container {
   padding: 10px;
-  width: 50%;
+  width: 60%;
   height: auto;
-  background: rgba(63, 61, 61, 0.25);
+  background: rgba(151, 182, 228, 0.308);
   box-shadow: 0 8px 32px 0 rgba(33, 33, 41, 0.37);
   border: 1px solid rgba(255, 255, 255, 0.18);
   margin: 0 auto;
@@ -38,7 +38,6 @@
 }
 
 .top {
-  height: 33%;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -59,7 +58,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 490px) {
   .background {
     background-image: none;
     background-image: linear-gradient(cornflowerblue, rgb(24, 49, 95));
